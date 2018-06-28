@@ -1,2 +1,7 @@
 *
 !.gitignore
+!Packages/
+!Packages/User/
+!Packages/User/*.sublime-settings
+!Packages/User/*.sublime-keymap
+!Packages/User/*.sublime-build

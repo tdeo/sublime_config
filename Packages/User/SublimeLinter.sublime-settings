@@ -1,0 +1,22 @@
+// SublimeLinter Settings - User
+{
+  "debug": true,
+  "linters": {
+    "rubocop": {
+      "disable": true,
+      "args": [
+        "--require", "rubocop-rspec",
+        "--require", "rubocop-thread_safety"
+      ]
+    },
+    "perl": {
+      "executable":
+        ["${HOME}/perl5/perlbrew/bin/perlbrew", "exec", "perl"],
+      "include_dirs": [
+        "${folder}/lib/",
+        "${folder}/../extension/",
+        "${folder}/webservice/bksapibeta/perlapp/lib/"
+      ]
+    }
+  }
+}

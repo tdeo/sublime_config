@@ -1,0 +1,8 @@
+{
+    "path": "/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+    "selector": ["source.html", "source.tmpl", "source.inc", "source.js", "source.css", "source.sass"],
+    "working_dir": "$file_path",
+    "shell": true,
+    "cmd": ["boo sync && boo restart"],
+    "env": {"NOCOLORS": "1"}
+}
