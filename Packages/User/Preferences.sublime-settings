@@ -3,8 +3,33 @@
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"copy_with_empty_selection": true,
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"build/report.html"
+	],
 	"folder_exclude_patterns":
 	[
+		"build/static",
 		".svn",
 		".git",
 		".hg",
@@ -19,6 +44,7 @@
 		"Vintage"
 	],
 	"index_files": false,
+	"margin": 0,
 	"rulers":
 	[
 		80,
