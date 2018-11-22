@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
-		"All Autocomplete",
 		"ApplySyntax",
 		"Auto Close HTML Tags",
 		"Babel",
@@ -19,8 +18,10 @@
 		"CursorRuler",
 		"DashDoc",
 		"Dockerfile Syntax Highlighting",
+		"Elixir",
 		"ERB Autocomplete",
 		"ERB Snippets",
+		"FindKeyConflicts",
 		"Git",
 		"GitGutter",
 		"Google Closure Library snippets",
@@ -37,13 +38,10 @@
 		"Pretty JSON",
 		"Pretty YAML",
 		"Sass",
-		"SFTP",
 		"SqlBeautifier",
-		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
-		"Super Calculator",
 		"TrailingSpaces"
 	],
 	"repositories":
