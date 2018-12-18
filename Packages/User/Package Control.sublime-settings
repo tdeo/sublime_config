@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"ApplySyntax",
 		"Auto Close HTML Tags",
@@ -15,6 +16,7 @@
 		"Build Next",
 		"CodeSearch",
 		"Colorsublime",
+		"Crystal",
 		"CursorRuler",
 		"DashDoc",
 		"Dockerfile Syntax Highlighting",
@@ -34,6 +36,7 @@
 		"MarkdownPreview",
 		"Mason",
 		"ModernPerl",
+		"nginx",
 		"Package Control",
 		"Pretty JSON",
 		"Pretty YAML",
@@ -42,7 +45,8 @@
 		"SublimeLinter",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"TypeScript Syntax"
 	],
 	"repositories":
 	[

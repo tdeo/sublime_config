@@ -24,6 +24,7 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
+		"*.beam",
 		"build/report.html"
 	],
 	"folder_exclude_patterns":
@@ -32,6 +33,10 @@
 		".svn",
 		".git",
 		".hg",
+		".tmp",
+		"deps",
+		"priv",
+		"_build",
 		"tmp",
 		"CVS",
 		"node_modules"
