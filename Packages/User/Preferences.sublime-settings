@@ -50,6 +50,7 @@
 	],
 	"indent_subsequent_lines": false,
 	"index_files": false,
+	"jsoncomma_on_save": true,
 	"margin": 0,
 	"rulers":
 	[

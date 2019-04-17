@@ -6,8 +6,8 @@
   // ! PLEASE RESTART SUBLIME TEXT FOR THESE CHANGES TO TAKE EFFECT !
   // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-  "opacity": 0.5,
-  "opacity_on_hover": 0.75,
-  "opacity_on_select": 0.9,
-  "size": 7
+  "opacity": 0.55,
+  "opacity_on_hover": 0.9,
+  "opacity_on_select": 1,
+  "size": 8
 }
