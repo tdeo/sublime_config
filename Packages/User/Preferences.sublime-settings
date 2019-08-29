@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Gutter Color/Monokai (SL).gcfix.tmTheme",
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -52,6 +52,7 @@
 	"index_files": false,
 	"jsoncomma_on_save": true,
 	"margin": 0,
+	"open_files_in_new_window": false,
 	"rulers":
 	[
 		80,

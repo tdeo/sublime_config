@@ -1,6 +1,7 @@
 // SublimeLinter Settings - User
 {
-  "debug": true,
+  "debug": false,
+  "delay": 1.0,
   "linters": {
     "rubocop": {
       "disable": true,
