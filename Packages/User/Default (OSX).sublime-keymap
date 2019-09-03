@@ -3,6 +3,7 @@
   { "keys": ["ctrl+tab"], "command": "next_view" },
   { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
   { "keys": ["alt+b"], "command" : "show_panel" , "args" : {"panel": "output.exec"} },
+  { "keys": ["super+."], "command": "close_tag" },
   { "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
     [
       { "key": "selector", "operator": "equal", "operand": "(text.html, text.xml, meta.jsx.js) - string - comment", "match_all": true },
