@@ -49,7 +49,7 @@
 		"SublimeLinter",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
-		"TrailingSpaces",
+		"Terminus",
 		"TypeScript Syntax"
 	],
 	"repositories":
