@@ -10,5 +10,6 @@
       { "key": "preceding_text", "operator": "regex_match", "operand": ".*<$", "match_all": true },
       { "key": "setting.auto_close_tags" }
     ]
-  }
+  },
+  { "keys": ["ctrl+shift+`"], "command": "toggle_terminus_panel" }
 ]

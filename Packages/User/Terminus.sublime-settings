@@ -1,0 +1,35 @@
+{
+	"preserve_keys":
+	[
+		"ctrl+k",
+		"ctrl+p"
+	],
+	"theme": "user",
+    "256color": true,
+    "unix_term": "xterm-256color",
+	"user_theme_colors":
+	{
+		"00": "#000000",
+		"01": "#c91b00",
+		"02": "#00c200",
+		"03": "#c7c400",
+		"04": "#0225c7",
+		"05": "#c930c7",
+		"06": "#00c5c7",
+		"07": "#c7c7c7",
+		"08": "#676767",
+		"09": "#ff6d67",
+		"10": "#5ff967",
+		"11": "#fefb67",
+		"12": "#6871ff",
+		"13": "#ff76ff",
+		"14": "#5ffdff",
+		"15": "#feffff",
+		"background": "#000000",
+		"block_caret": "#feffff",
+		"caret": "#c7c7c7",
+		"foreground": "#c7c7c7",
+		"selection": "#c1ddff",
+		"selection_foreground": "#000000"
+	}
+}
