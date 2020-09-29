@@ -19,5 +19,9 @@
 
     // Put your custom syntax rules here:
     "syntaxes": [
+        {
+            "syntax": "Babel/JavaScript (Babel)",
+            "extensions": ["spec.js"]
+        }
     ]
 }

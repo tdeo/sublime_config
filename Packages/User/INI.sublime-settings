@@ -1,7 +1,7 @@
 {
 	"extensions":
 	[
-		"spec.js",
-		"js"
+		"ini.dist",
+		".npmrc"
 	]
 }

@@ -29,7 +29,9 @@
 	],
 	"folder_exclude_patterns":
 	[
+		"build/resources/main",
 		"build/static",
+		"public/packs",
 		".svn",
 		".git",
 		".hg",
