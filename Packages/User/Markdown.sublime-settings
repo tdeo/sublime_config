@@ -1,4 +1,8 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"margin": 0
+	"margin": 0,
+	"extensions":
+	[
+		"md"
+	],
 }

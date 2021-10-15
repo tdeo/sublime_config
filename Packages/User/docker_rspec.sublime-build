@@ -1,4 +1,0 @@
-{
-  "shell_cmd": "docker exec `docker ps -qa --filter ancestor=docker_admin` bin/spring rspec `echo $file | sed \"s|$project_path/admin/||\"`",
-  "file_patterns": ["*_spec.rb"],
-}

@@ -1,4 +1,8 @@
 {
+	"light_theme": "Default Dark.sublime-theme",
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"dark_color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -48,9 +52,9 @@
 	"font_size": 9,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
-	"indent_subsequent_lines": false,
+	"indent_subsequent_lines": true,
 	"index_files": false,
 	"jsoncomma_on_save": true,
 	"margin": 0,
@@ -61,11 +65,13 @@
 		80,
 		120
 	],
+	"scroll_speed": 2,
 	"scroll_past_end": false,
+	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
 }

@@ -7,6 +7,7 @@
 	[
 		"A File Icon",
 		"AdvancedNewFile",
+		"ANSIescape",
 		"ApplySyntax",
 		"AsciiDoc",
 		"Asciidoctor",
@@ -38,17 +39,19 @@
 		"HTMLBeautify",
 		"Indent XML",
 		"INI",
-		"JSONComma",
 		"Kotlin",
 		"LESS",
 		"Markdown HTML Preview",
 		"MarkdownPreview",
 		"Mason",
+		"MDX Syntax Highlighting",
 		"ModernPerl",
 		"nginx",
 		"Package Control",
+		"PackageDev",
 		"Pretty JSON",
 		"Pretty YAML",
+		"RSpec",
 		"Sass",
 		"SqlBeautifier",
 		"SSH Config",
@@ -56,10 +59,12 @@
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"Terminus",
-		"TypeScript Syntax"
+		"Terraform",
+		"TypeScript",
+		"TypeScript Syntax",
 	],
 	"repositories":
 	[
 		"https://gist.githubusercontent.com/fnando/56393d3900af55bf9e94/raw/repositories.json"
-	]
+	],
 }
