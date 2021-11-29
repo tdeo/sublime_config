@@ -10,5 +10,6 @@
       { "key": "setting.auto_close_tags" }
     ]
   },
-  { "keys": ["ctrl+shift+`"], "command": "toggle_terminus_panel" }
+  { "keys": ["ctrl+shift+`"], "command": "toggle_terminus_panel" },
+  { "keys": ["ctrl+alt+l"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 ]

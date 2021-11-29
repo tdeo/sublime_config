@@ -4,12 +4,13 @@
   "shell_cmd": ". .env && rvm in . do bin/rspec --color --tty $file",
   "target": "ansi_color_build",
   "syntax": "Packages/ANSIescape/ANSI.tmLanguage",
-  "file_regex": "# ([A-Za-z:0-9_./ ]+rb):([0-9]+)",
+  "file_regex": "# ([A-Za-z:0-9_./ ]+rb):([0-9]+)()()",
   "selector": "source.ruby.rspec",
   "variants": [
     {
       "name": "only-failures",
       "shell_cmd": ". .env && rvm in . do bin/rspec --only-failures --color --tty $file",
+    "selector": "source.ruby.rspec",
     }
   ]
 }
