@@ -1,14 +1,30 @@
 // SublimeLinter Settings - User
 {
-  "debug": false,
-  "delay": 1.0,
+  "debug": true,
+  "no_column_highlights_line": true,
+  "highlights.time_to_idle": 0.5,
+  "show_panel_on_save": "window",
+  "debug": true,
   "linters": {
     "rubocop": {
       "disable": true,
-      "args": [
-        "--require", "rubocop-rspec",
-        "--require", "rubocop-thread_safety"
-      ]
+      "selector": "source.ruby - (source.ruby.rails.html, source.ruby.rails.embedded.rails, text.html.rails)",
+      "executable": ["rubocop"],
+      "args": ["--server"]
+    },
+    "eslint": {
+      "disable": true,
+      "selector": "source.ts, source.js, source.jsx, source.tsx",
+      "executable": "${folder}/node_modules/.bin/eslint",
+      "args": ["--cache", "--cache-strategy=content", "--no-ignore"]
+    },
+    "erblint": {
+      "disable": true,
+      "selector": "source.ruby.rails.html, text.html.rails, source.ruby.rails.embedded.rails",
+      "filter_errors": ["Pennylane/UseSnakeCaseInPath"]
+    },
+    "ruby": {
+      "disable": true
     }
   }
 }
