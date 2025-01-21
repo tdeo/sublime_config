@@ -1,0 +1,39 @@
+{
+  "log_debug": true,
+	"clients": {
+		"ruby": {
+			"enabled": false,
+      // "diagnostics_mode": "workspace",
+      "command": [
+        // "/opt/homebrew/bin/solargraph",
+        "solargraph",
+        "stdio"
+      ],
+      "selector": "source.ruby | text.html.ruby",
+      "initializationOptions": {
+        "enabledFeatures": {
+          "diagnostics": true
+        },
+        // "experimentalFeaturesEnabled": true
+      },
+		},
+    "sorbet": {
+      "enabled": false,
+      "command": ["srb", "tc", "--enable-all-experimental-lsp-features", "--enable-all-beta-lsp-features", "--lsp", "--disable-watchman"],
+      "selector": "source.ruby | text.html.ruby",
+    },
+    "ruby-lsp": {
+      "enabled": true,
+      "command": [
+        "ruby-lsp"
+      ],
+      "selector": "source.ruby | text.html.ruby",
+      "initializationOptions": {
+        "enabledFeatures": {
+          "diagnostics": true,
+        },
+        "experimentalFeaturesEnabled": true,
+      },
+    },
+  },
+}

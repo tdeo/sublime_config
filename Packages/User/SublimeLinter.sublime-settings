@@ -7,19 +7,19 @@
   "debug": true,
   "linters": {
     "rubocop": {
-      "disable": true,
+      "disable": false,
       "selector": "source.ruby - (source.ruby.rails.html, source.ruby.rails.embedded.rails, text.html.rails)",
       "executable": ["rubocop"],
       "args": ["--server"]
     },
     "eslint": {
-      "disable": true,
+      "disable": false,
       "selector": "source.ts, source.js, source.jsx, source.tsx",
       "executable": "${folder}/node_modules/.bin/eslint",
       "args": ["--cache", "--cache-strategy=content", "--no-ignore"]
     },
     "erblint": {
-      "disable": true,
+      "disable": false,
       "selector": "source.ruby.rails.html, text.html.rails, source.ruby.rails.embedded.rails",
       "filter_errors": ["Pennylane/UseSnakeCaseInPath"]
     },

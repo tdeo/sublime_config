@@ -1,0 +1,10 @@
+// Settings in here override those in "LSP-yaml/LSP-yaml.sublime-settings"
+
+{
+  "settings": {
+    // "yaml.schemas": {
+    //   "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.0/schema.yaml": ["/schemas/private-api/*"],
+    // },
+    "yaml.disableAdditionalProperties": false
+  }
+}

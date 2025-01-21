@@ -1,0 +1,9 @@
+{
+  "level_style": "line",
+  "debounce": 0.05,
+  "level_colors": [
+    "#444",
+    "orange",
+
+  ]
+}

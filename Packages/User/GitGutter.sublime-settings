@@ -1,0 +1,7 @@
+// GitGutter Settings - User
+{
+    "ignore_whitespace": "all",
+    "line_annotation_text": "{{line_author}} · {{line_summary}} · {{' '.join(line_author_age.split(' ')[:2])}}",
+    "line_annotation_ignore_whitespace": true,
+    "show_status_bar_text": false
+}
