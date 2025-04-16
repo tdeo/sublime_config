@@ -5,6 +5,7 @@
 	"dark_color_scheme": "Mariana.sublime-color-scheme",
 	"color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
 	"draw_minimap_border": true,
+	"minimap_horizontal_scrolling": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns": [],
 	"folder_exclude_patterns": [
@@ -61,4 +62,5 @@
   },
   "word_wrap": false,
 	/*"scroll_past_end": true,*/
+	"font_face": "Menlo",
 }

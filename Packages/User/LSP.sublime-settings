@@ -25,7 +25,7 @@
     "ruby-lsp": {
       "enabled": true,
       "command": [
-        "ruby-lsp"
+        "/Users/thierry/.asdf/shims/ruby-lsp"
       ],
       "selector": "source.ruby | text.html.ruby",
       "initializationOptions": {
