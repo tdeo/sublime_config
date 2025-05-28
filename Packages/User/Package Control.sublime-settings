@@ -58,7 +58,7 @@
 		"SqlBeautifier",
 		"SSH Config",
 		"SublimeLinter",
-		"SublimeLinter-contrib-erblint",
+		"SublimeLinter-erblint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
