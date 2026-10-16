@@ -3,37 +3,15 @@
 	"dark_theme": "Default Dark.sublime-theme",
 	"light_color_scheme": "Breakers.sublime-color-scheme",
 	"dark_color_scheme": "Mariana.sublime-color-scheme",
-	"color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
+	// "color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
 	"draw_minimap_border": true,
 	"minimap_horizontal_scrolling": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns": [],
-	"folder_exclude_patterns": [
-		"/Users/thierry/compta/jeancaisse/.git",
-		"/Users/thierry/compta/jeancaisse/.vscode",
-		"/Users/thierry/compta/jeancaisse/.yarn/cache",
-		"/Users/thierry/compta/jeancaisse/app/javascript/axiosClients",
-		// "/Users/thierry/compta/jeancaisse/app/javascript/constants/generated",
-		"/Users/thierry/compta/jeancaisse/app/javascript/e2e/storage",
-		"/Users/thierry/compta/jeancaisse/app/javascript/mockedData",
-		"/Users/thierry/compta/jeancaisse/app/javascript/pusherListeners",
-		// "/Users/thierry/compta/jeancaisse/app/javascript/queries",
-		"/Users/thierry/compta/jeancaisse/app/javascript/types/client",
-		"/Users/thierry/compta/jeancaisse/app/javascript/ui/DocGen",
-		"/Users/thierry/compta/jeancaisse/docker_data",
-		"/Users/thierry/compta/jeancaisse/eslint-plugin-pennylane/.yarn",
-		"/Users/thierry/compta/jeancaisse/eslint-plugin-pennylane/lib",
-		"/Users/thierry/compta/jeancaisse/eslint-plugin-pennylane/node_modules",
-		// "node_modules/",
-		"/Users/thierry/compta/jeancaisse/node_modules",
-		"/Users/thierry/compta/jeancaisse/public/packs",
-		"/Users/thierry/compta/jeancaisse/public/vite-dev",
-		"/Users/thierry/compta/jeancaisse/storage/",
-		"/Users/thierry/compta/jeancaisse/tmp",
-	],
 	"font_size": 10,
 	"ignored_packages":
 	[
+		"SublimeLinter-eslint",
 		"Vintage",
 	],
 	"indent_subsequent_lines": false,
@@ -63,4 +41,8 @@
   "word_wrap": false,
 	/*"scroll_past_end": true,*/
 	"font_face": "Menlo",
+	"color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
+	"file_icon_theme":
+	[
+	],
 }
